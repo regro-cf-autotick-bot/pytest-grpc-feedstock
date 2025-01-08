@@ -27,7 +27,6 @@ requirements:
 test:
   commands:
     - pytest --traceconfig | grep pytest_grpc-{{ version }}
-  commands:
     - pip check
   requires:
     - pip
