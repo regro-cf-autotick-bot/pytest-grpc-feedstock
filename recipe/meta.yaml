@@ -21,6 +21,7 @@ requirements:
     - python {{ python_min }}
     - setuptools
   run:
+    - grpcio
     - pytest >=3.6.0
     - python >={{ python_min }}
 
